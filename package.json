@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "dummy-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Swadand",
+  "license": "ISC",
+  "description": ""
+}

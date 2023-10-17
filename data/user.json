@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ash",
+        "website": "ash.gg", 
+        "age": 10, 
+        "likes": "animals"
+    },
+    {
+        "name": "Raj", 
+        "website": "raj.in", 
+        "age": 23, 
+        "likes": "Silence"
+    },
+    {
+        "name": "Yami", 
+        "website": "yami.to", 
+        "age": 20, 
+        "likes": "skincare"
+    },
+    {
+        "name": "Abhishek", 
+        "website": "abhishek.cc", 
+        "age": 26, 
+        "likes": "comedy"
+    },
+    {
+        "name": "Victoria", 
+        "website": "cookies.ru", 
+        "age": 27, 
+        "likes": "baking"
+    }
+]
