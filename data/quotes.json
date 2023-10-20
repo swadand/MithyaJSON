@@ -1,18 +1,82 @@
 [
     {
-        "quote": "An apple a day.",
-        "quotee": "myself"
+        "quote": "All that glitters is not gold.",
+        "quotee": "William Shakespeare"
     },
     {
-        "quote": "DO something",
-        "quotee": "myself1"
+        "quote": "Ask not what your country can do for you; ask what you can do for your country.",
+        "quotee": "John Kennedy"
     },
     {
-        "quote": "Just do it.",
-        "quotee": "Nike"
+        "quote": "Ask, and it shall be given you; seek, and you shall find.",
+        "quotee": "the Bible"
     },
     {
-        "quote": "Shuchobicassup.",
-        "quotee": "online entity"
+        "quote": "Eighty percent of success is showing up.",
+        "quotee": "Woody Allen"
+    },
+    {
+        "quote": "Frankly, my dear, I don't give a damn.",
+        "quotee": "Rhett Butler"
+    },
+    {
+        "quote": "For those to whom much is given, much is required.",
+        "quotee": "the Bible"
+    },
+    {
+        "quote": "Hell has no fury like a woman scorned.",
+        "quotee": "William Congreve"
+    },
+    {
+        "quote": "I think therefore I am.",
+        "quotee": "Rene Descartes"
+    },
+    {
+        "quote": "If you want something done right, do it yourself.",
+        "quotee": "Charles-Guillaume Étienne"
+    },
+    {
+        "quote": "If you build it, they will come.",
+        "quotee": "Joe Jackson"
+    },
+    {
+        "quote": "I'll be back.",
+        "quotee": "Terminator"
+    },
+    {
+        "quote": "Life is like a box of chocolates. You never know what you’re gonna get.",
+        "quotee": "Forrest Gump"
+    },
+    {
+        "quote": "Not all those who wander are lost.",
+        "quotee": "J. R. R. Tolkein"
+    },
+    {
+        "quote": "Nothing is certain except for death and taxes.",
+        "quotee": "Benjamin Franklin"
+    },
+    {
+        "quote": "Speak softly and carry a big stick",
+        "quotee": "Theodore Roosevelt"
+    },
+    {
+        "quote": "Three can keep a secret, if two of them are dead.",
+        "quotee": "Benjamin Franklin"
+    },
+    {
+        "quote": "Tis better to have loved and lost than never to have loved at all.",
+        "quotee": "Alfred Lord Tennyson"
+    },
+    {
+        "quote": "To err is human; to forgive, divine.",
+        "quotee": "Alexander Pope"
+    },
+    {
+        "quote": "Whatever you are, be a good one.",
+        "quotee": "Abraham Lincoln"
+    },
+    {
+        "quote": "A rose by any other name would smell as sweet.",
+        "quotee": "William Shakespeare"
     }
 ]
