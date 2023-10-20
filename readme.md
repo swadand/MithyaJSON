@@ -1,3 +1,5 @@
+[![.github/workflows/render-publish.yml](https://github.com/swadand/mithya-json/actions/workflows/render-publish.yml/badge.svg)](https://github.com/swadand/mithya-json/actions/workflows/render-publish.yml)
+
 # Dummy Json Data Api
 
 
