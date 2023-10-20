@@ -5,7 +5,7 @@ const PORT = 8080;
 
 app.use(express.json());
 
-app.get('/', routes)
+app.use('/', routes);
 
 /* app.get('*', (request, response)=> {
     response.status(404).send('not found');
