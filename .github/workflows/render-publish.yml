@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to production
-        uses: Bounceapp/render-action@0.7.1
+        uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id:  ${{ secrets.RENDER_SERVICE-ID }}
-          render-token: ${{ secrets.RENDER_API }}
+          # ID of the service to deploy
+            service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          # A Render API key
+            api-key: ${{ secrets.RENDER_API }}
