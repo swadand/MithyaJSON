@@ -1,9 +1,16 @@
-- name: Render GitHub Action
-  # You may pin to the exact commit or the version.
-  # uses: Bounceapp/render-action@8f5f29f776cc97aa5ae78d120c14f736c935ab52
-  uses: Bounceapp/render-action@0.7.1
-  with:
-    # The id of the Render service to be tracked
-    service-id: ${{ secrets.RENDER_SERVICE-ID }}
-    # Render API token to use instead of the email/password combination
-    render-token: ${{ secrets.RENDER_API }}
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id:  ${{ secrets.RENDER_SERVICE-ID }}
+          api-key: ${{ secrets.RENDER_API }}
