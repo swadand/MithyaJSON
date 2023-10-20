@@ -1,4 +1,10 @@
+name: Deploy
 on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Who to greet"
+        default: "World"
   push:
     branches:
       - main
