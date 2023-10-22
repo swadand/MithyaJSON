@@ -7,7 +7,7 @@ on:
         default: "World"
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:

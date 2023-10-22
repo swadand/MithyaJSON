@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
-    <h1>HEY THERE!</h1>
-    <a href='/users'>/users</a>
-    <br>
-    <a href='/quotes'>/quotes</a>
+    <nav>
+        <h1>
+            <a>MithyaJSON</a>
+        </h1>
+        <div>
+            <a href="/help">Help</a>
+            <a href="https://github.com/swadand/MithyaJSON">Github</a>
+        </div>
+    </nav>
+    <div>
+        <h1>MithyaJSON</h1>
+        <p>Free API to get Dummy JSON data for prototypes.</p>
+    </div>
+    <div>
+        To try run following code from node terminal or api fetcher.
+        <pre class=" language-javascript">
+        <code id="example" class="language-javascript">
+            <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'https://mithya-json.onrender.com/users'</span <span class="token punctuation">)</span <span class="token punctuation">
+            .</span <span class="token function">then</span <span class="token punctuation">(</span><span class="token parameter">response</span <span class="token operator">=&gt;</span>response<span class="token punctuation">.</span <span class="token function">json</span <span class="token punctuation">(</span <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">
+            .</span <span class="token function">then</span <span class="token punctuation">(</span <span class="token parameter">json</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span <span class="token punctuation">(</span>json<span class="token punctuation">)</span <span class="token punctuation">)</span>
+        </code>
+        </pre>
+    </div>
+    <div class="resources">
+        <h2>Resources</h2>
+        <table>
+            <tr>
+                <td><a href='/users'>/users</a></td>
+                <td><p> 5 user data </p></td>
+            </tr>
+            <tr> 
+                <td><a href='/quotes'>/quotes</a></td>
+                <td><p> 20 quotes </a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="routes">
+        <h2>Routes</h2>
+        <table>
+            <tr>
+                <td><a href='/users'>/users</a></td>
+                <td><p> users data </p></td>
+            </tr>
+            <tr> 
+                <td><a href='/quotes'>/quotes</a></td>
+                <td><p> quotes data </a></td>
+            </tr>
+        </table>
+        <p>For more info about routes goto</p>
+        <button><a href="/help">help</a></button>
+    </div>
+    <footer>
+        <p>Take a look at the repo</p>
+        <a href="https://github.com/swadand/MithyaJSON">Github</a>
+    </footer>
 </body>
 </html>

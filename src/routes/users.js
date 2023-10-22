@@ -2,14 +2,15 @@ const router = require('express').Router();
 const path = require('path');
 const user = require(path.join(__dirname, '../../', 'data/users.json'));
 
-router.get('/', (request, response)=> {
+router.get('/', (req, res)=> {
 //    console.log("user route");
-    response.setHeader("Content-type", "application/json");
-    response.status(200).send(user);
+    res.setHeader("Content-type", "application/json");
+    res.status(200).send(user);
 });
 
-router.get('*', (request, response)=> {
-    response.status(404).send('not found');
+router.get('*', (req, res)=> {
+    res.status(404);
+    res.sendFile(path.join(__dirname, '../', 'views/404.html'));
 });
 
 //console.log(user);
